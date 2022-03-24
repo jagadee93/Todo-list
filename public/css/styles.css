@@ -12,7 +12,9 @@ h1 {
   padding: 10px;
 
 } 
-
+span{
+  font-size:25px;
+}
 .box {
   max-width: 50%;
   margin: 50px auto;
@@ -119,8 +121,8 @@ footer {
 
 @media screen and (orientation: portrait) {
   body{
-      background-image: url("/images/mbg1.png");
-      background-size: cover ;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(155,155,202,1) 35%, rgba(0,212,255,1) 100%);
   }
   h1{
     color: #fff;
@@ -148,13 +150,13 @@ footer {
     border-bottom: 1px solid #F1F1F1;
   }
   p {
-    width: 60%;
+    width: 80%;
     margin: 0;
     padding: 10px;
     font-size: 60px;
     font-weight: 200;
     color: #00204a;
-    flex-grow: 1;
+    flex-grow: 0;
   }
   .btn{
     min-height: 70px;
@@ -169,6 +171,7 @@ footer {
   .fa-3x{
     font-size: 4.4em !important;
     margin-right: 40px;
+    background-color: #A683E3;
   }
   .checkbox{
     width: 50px;
@@ -182,10 +185,10 @@ footer {
     background: transparent;
     font-size: 60px;
     font-weight: 200;
-    width: 100%;
+    width: 97%;
   }
   input[type="text"]:focus {
-    width: 100%;
+    width: 97%;
     outline: none;
     box-shadow: inset 0 -3px 0 0 #A683E3;
   }
@@ -200,6 +203,15 @@ footer {
     padding-bottom: 6px;
     border-width: 0;
     margin-right: 25px;
+  }
+  .footer {
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 10px;
+  }
+  span{
+    font-size: 50px;
   }
   }
   
