@@ -9,8 +9,8 @@ app.set('view engine','ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-// mongoose.connect("mongodb+srv://Jagadeesh:Asdfg-3717@cluster0.8dctj.mongodb.net/tasklistDB");
-mongoose.connect("mongodb://localhost:27017/tasklistDB")
+mongoose.connect("mongodb+srv://Jagadeesh:Asdfg-3717@cluster0.8dctj.mongodb.net/tasklistDB");
+// mongoose.connect("mongodb://localhost:27017/tasklistDB")
  const TasksSchema = new mongoose.Schema({
   name:{
     type:String
